@@ -1,0 +1,23 @@
+# === 编译产物 ===
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# === 构建目录（CMake 生成的都放这里）===
+build/
+bin/
+output/
+
+# === CMake 生成文件 ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+
+# === IDE / 编辑器 ===
+.vscode/
+.idea/
+*.swp
+.DS_Store
